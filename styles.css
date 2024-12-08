@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Yuji+Mai&display=swap');
+
 * {
     margin: 0px;
     padding: 8px;
     border: 100;
-    color: white;
+    
+    
 
 }
 
@@ -19,13 +22,18 @@ body {
 
 button {
     border-radius: 20px;
-    border-color: darkblue;
+    color: white;
+    border-color: greenyellow;
     background-color: transparent;
     position: center;
     font-size: 12px;
     justify-content: center;
     margin: 5%; 
     width: 250px;
+}
+
+a {
+    color: white; 
 }
 
 .Apresentacao{
@@ -36,15 +44,30 @@ button {
     font-size: 22px;
     color: white;
     width: 425px;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
 }
 
 .Apresentacao__Conteudo{
     width: 425px;
     font-size: 20px;
     margin: 0% ;
-    
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
     
 }
+
+.Sobre_mim{
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
 
 .Apresentacao__Conteudo__Projetos{
     width: 400px;
@@ -52,6 +75,9 @@ button {
     margin: 0% ;
     justify-content: space-around;
     align-items: left;
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
     
 }
 
@@ -59,4 +85,6 @@ button {
 p {
     font-size: small; 
     font-family: 'Times New Roman', Times, serif; 
+    color: white;
+    
 }
