@@ -20,16 +20,24 @@ body {
 
 
 
-button {
+.Apresentacao__links {
+    display: flex; 
+    justify-content: space-between;
+
+}
+
+.apresentacao__links__botoes{
     border-radius: 20px;
     color: white;
-    border-color: greenyellow;
-    background-color: transparent;
+    border-color: darkblue;
+    background-color: darkblue;
     position: center;
-    font-size: 12px;
-    justify-content: center;
-    margin: 5%; 
+    font-size: 18px;
+    justify-content: space-between;
+    margin: 20px; 
     width: 250px;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 a {
