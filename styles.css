@@ -1,99 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Yuji+Mai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
-* {
-    margin: 0px;
-    padding: 8px;
-    border: 100;
-    
-    
-
+*{
+    margin: 0;
+    padding: 0;
 }
 
-body {
+body{
     height: 100vh;
     box-sizing: border-box;
-    background-image: url("IA.jpg");
-    background-position: center;
-    background-size: cover;
-    
+    background-color: #000000;
+    color: #F6F6F6;
 }
 
+.titulo-destaque{
+    color: #22D4FD;
+}
 
-
-.Apresentacao__links {
-    display: flex; 
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
     flex-direction: column;
-
+    gap: 40px;
 }
 
-.apresentacao__links__botoes{
-    border-radius: 20px;
-    color: white;
-    border-color: darkblue;
-    background-color: darkblue;
-    position: center;
-    font-size: 18px;
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    margin: 20px; 
-    width: 250px;
-    text-decoration: none;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao__links__subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.apresentacao__links__link{
+    /* background-color: #22D4FD; */
+    display: flex; 
+    justify-content: center;
+    gap: 16px; 
+    border: 2px solid #22D4FD;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
     font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
 }
 
-a {
-    color: white; 
+.apresentacao__links :hover {
+    background-color: darkblue;
 }
 
-.Apresentacao{
-    display:inline; 
-    justify-content: space-around;
-    align-items: left;
-    margin: 5%;
-    font-size: 22px;
-    color: white;
-    width: 425px;
-    font-family: "Parkinsans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    
-}
-
-.Apresentacao__Conteudo{
-    width: 425px;
-    font-size: 20px;
-    margin: 0% ;
-    font-family: "Yuji Mai", serif;
-    font-weight: 400;
-    font-style: normal;
-    
-}
-
-.Sobre_mim{
-    font-family: "Yuji Mai", serif;
-    font-weight: 400;
-    font-style: normal;
-    
-}
-
-
-.Apresentacao__Conteudo__Projetos{
-    width: 400px;
-    font-size: 12px;
-    margin: 0% ;
-    justify-content: space-around;
-    align-items: left;
-    font-family: "Yuji Mai", serif;
-    font-weight: 400;
-    font-style: normal;
-    
-}
-
-
-p {
-    font-size: small; 
-    font-family: 'Times New Roman', Times, serif; 
-    color: white;
-    
-}
