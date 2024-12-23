@@ -17,6 +17,7 @@ body{
 
 .cabecalho{
     padding: 2% 0 0 15%;
+    display: flex;
 }
 
 .cabecalho__menu{
@@ -28,7 +29,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     color:#22D4FD; 
-
+    text-decoration: none;
 }
 
 .apresentacao {
@@ -115,3 +116,60 @@ body{
     font-weight: 450px;
 }
 
+/* Pagina Curriculo */
+
+.apresentacao__curriculo {
+    padding: 5% 15%;
+    display: flex;
+    align-items: flex-start; /* Alinha o conteúdo ao topo */
+    justify-content: space-between;
+    gap: 20px; /* Espaçamento entre os elementos */
+    flex-direction: column;
+
+}
+
+.apresentacao__curriculo__conteudo {
+    max-width: 50%; /* Limita a largura do texto */
+    display: flex;
+    flex-direction: column;
+    gap: 36px; /* Espaçamento entre os elementos internos */
+}
+
+.apresentacao__curriculo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__curriculo__texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block; 
+    padding-top: 15px;
+    max-width: 500px;
+    max-width: 100%; /* Limita a largura do texto */
+
+}
+
+.apresentacao__curriculo__softskills{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration:underline;
+}
+
+/* Pagina projetos  */
+
+.apresentacao__projeto__objetivo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+video {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.apresentacao__projeto__imagem {
+    margin: 0 auto;
+    width: 400px; 
+}
