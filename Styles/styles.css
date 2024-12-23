@@ -159,6 +159,12 @@ body{
 
 /* Pagina projetos  */
 
+.imagem-bomba{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
 .apresentacao__projeto__objetivo{
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
