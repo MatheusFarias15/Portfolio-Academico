@@ -261,39 +261,21 @@ video {
     filter: blur(5px);
 }
 
-@media (max-width: 800px) {
-    
+@media (max-width: 1200px) {
     .cabecalho{
-        padding: 8%;
-        justify-content: center;
-        width: 34.375rem;
-
+         padding: 10%;  
     }
-
     .cabecalho__menu{
         justify-content: center;
     }
-
-
     .apresentacao{
         flex-direction: column-reverse;
+        padding: 5%;
     }
-    
-    .apresentacao__conteudo__titulo{
-        width: 34.375rem;
+    .apresentacao__conteudo{
+        width: auto;
     }
 
-    .apresentacao__conteudo__texto{
-        width: 34.375rem;
-    }
-    .apresentacao__links__subtitulo{
-        width: 34.375rem;
-    }
-    .apresentacao__links__link{
-        width: 34.375rem;
-    }
-    .rodape{
-        width: 40.625rem;
     }
     .apresentacao__curriculo__softskills{
         width: 34.375rem;
@@ -314,5 +296,5 @@ video {
         flex-direction: column;
         
     }
-}
+
 
