@@ -304,6 +304,10 @@ video {
         font-size: 1rem;
     }
 
+    .apresentacao__curriculo{
+        padding: 5%;
+    }
+
     .apresentacao__curriculo__titulo{
         font-size: 1.25rem;
     }
@@ -326,5 +330,6 @@ video {
 
     .card-group{ 
         flex-direction: column;
+
     }
 }
