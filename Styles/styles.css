@@ -262,74 +262,78 @@ video {
     filter: blur(5px);
 }
 
+/* 🔹 Notebook e Tablets (Até 1200px) */
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 3% 5%;
+    }
+
+    .apresentacao {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagem-bomba {
+        max-width: 400px;
+    }
+
+    .card-group {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* 🔹 Celulares (Até 800px) */
 @media (max-width: 800px) {
-    .cabecalho{
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
         padding: 8%;
-        justify-content: center;
-        width: 100%;
     }
 
-    .cabecalho__menu{
-        justify-content: center;
-        gap: 20px;
+    .cabecalho__menu {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
     }
 
-    .cabecalho__menu__link{
-        font-size: 1rem;
-    }
-
-    .apresentacao{
+    .apresentacao {
         flex-direction: column-reverse;
         padding: 5%;
     }
-    
-    .apresentacao__conteudo__titulo{
+
+    .apresentacao__conteudo__titulo {
         font-size: 1.5rem;
     }
 
-    .apresentacao__conteudo__texto{
-        font-size: 1rem;
-    }
-
-    .apresentacao__links__subtitulo{
-        font-size: 1rem;
-    }
-
-    .apresentacao__links__link{
-        font-size: 1rem;
-        padding: 10px;
-    }
-
-    .rodape{
-        font-size: 1rem;
-    }
-
-    .apresentacao__curriculo{
-        padding: 5%;
-    }
-
-    .apresentacao__curriculo__titulo{
-        font-size: 1.25rem;
-    }
-
-    .apresentacao__curriculo__softskills{
-        font-size: 1rem;
-    }
-
-    .apresentacao__curriculo__texto{
-        font-size: 1rem;
-    }
-
-    .apresentacao__projeto__objetivo{
-        font-size: 1rem;
-    }
-
-    .imagem-bomba{
+    .imagem-bomba {
         width: 100%;
     }
 
-    .card-group{ 
+    .card-group {
         flex-direction: column;
+    }
+}
 
+/* 🔹 Celulares Pequenos (Até 480px) */
+@media (max-width: 480px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .apresentacao {
+        padding: 3%;
+    }
+
+    .cabecalho__menu {
+        gap: 10px;
+    }
+
+    .imagem-bomba {
+        width: 90%;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.2rem;
     }
 }
