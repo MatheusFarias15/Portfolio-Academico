@@ -1,52 +1,287 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
-    <link rel="stylesheet" href="Styles/styles.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matheus Farias | Portfólio Técnico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="Styles/styles.css" />
 </head>
 
 <body>
-    <header class = "cabecalho">
-        <nav class = "cabecalho__menu"> 
-            <a class = "cabecalho__menu__link" href="index.html"> Home </a>
-            <a class = "cabecalho__menu__link" href="about.html"> Sobre mim </a>
-            <a class = "cabecalho__menu__link" href="curriculo.html" > Currículo </a>
-            <a class = "cabecalho__menu__link" href="projetos.html" > Projetos </a>
+  <header class="topbar">
+    <span class="brand">matheus.farias()</span>
+    <nav class="nav-links">
+      <a href="#sobre">Sobre</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#cursos">Cursos</a>
+    </nav>
+  </header>
 
-        </nav>
-    </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">
-                Eleve seu negócio digital a outro nível<strong class="titulo-destaque">
-                com um Front-end de qualidade!</strong>
-            </h1>
-            <p class="apresentacao__conteudo__texto">
-                Olá! Sou Matheus Farias, desenvolvedor Front-end com especialidade em HTML e
-                CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos
-                conversar?
-            </p>
-            <h2 class="apresentacao__links__subtitulo">Acesse minhas redes sociais:</h2>
-            <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/matheus-farias-0822b5269/"> 
-                    <img src="assests/linkedin.png"> Linkedin 
-                </a>
-                <a class="apresentacao__links__link" href="https://github.com/MatheusFarias15">
-                    <img src="assests/github.png"> GitHub
-                </a>
-            </div>
-        </section>
-        <div class = "image">
-            <img src="assests/imagem2.png" alt="Desenvolvedor trabalhando"> 
+  <main class="layout">
+    <section class="hero" id="sobre">
+      <div class="hero-copy">
+        <div class="eyebrow">Terminal Clean · Data-Driven</div>
+        <h1 class="hero-title">Matheus Farias dos Santos</h1>
+        <p class="hero-subtitle">Estudante de Engenharia da Computação | Dados, Automação & IA</p>
+        <p>Sou estudante de Engenharia da Computação no Centro Universitário Senac (7º semestre), com foco em dados, automação e Inteligência Artificial aplicada a problemas reais. Tenho paixão por transformar processos complexos em soluções eficientes por meio da tecnologia.</p>
+      </div>
+
+      <div class="hero-panel">
+        <article class="status-card">
+          <div class="status-title">SYSTEM_STATUS</div>
+          <p class="status-line"><span>&gt;&gt;</span> ACTIVE</p>
+          <p class="status-line"><span>&gt;&gt;</span> LOADING_DATA... 88%</p>
+          <p class="status-line"><span>&gt;&gt;</span> PIPELINE_HEALTH: STABLE</p>
+          <p class="status-line"><span>&gt;&gt;</span> LAST_DEPLOY: 03m 22s ago</p>
+        </article>
+
+        <div class="metrics">
+          <div class="metric-pill">
+            <span class="metric-title">FOCO</span>
+            <span class="metric-value">Data Engineering & Automation</span>
+          </div>
+          <div class="metric-pill">
+            <span class="metric-title">DIFERENCIAL</span>
+            <span class="metric-value">Soluções reais para operações e IA</span>
+          </div>
         </div>
-    </main>
-    <footer class="rodape">
-        <p>Desenvolvido por Matheus Farias.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <h2>Áreas de Domínio</h2>
+          <p>Visão rápida das competências centrais por meio de indicadores mínimos e claros.</p>
+        </div>
+      </div>
+      <div class="skill-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
+        <article class="skill-card">
+          <h3>Engenharia de Dados & SQL</h3>
+          <div class="skill-bar" aria-hidden="true"><div class="skill-fill"></div></div>
+          <div class="skill-meta"><span>Pipeline | Modelagem | ETL</span></div>
+        </article>
+        <article class="skill-card">
+          <h3>Inteligência Artificial & LLMs</h3>
+          <div class="skill-bar" aria-hidden="true"><div class="skill-fill"></div></div>
+          <div class="skill-meta"><span>Modelos | Prompt | Automação</span></div>
+        </article>
+        <article class="skill-card">
+          <h3>Automação & Integrações</h3>
+          <div class="skill-bar" aria-hidden="true"><div class="skill-fill"></div></div>
+          <div class="skill-meta"><span>n8n | Make | APIs</span></div>
+        </article>
+        <article class="skill-card">
+          <h3>Desenvolvimento de Software</h3>
+          <div class="skill-bar" aria-hidden="true"><div class="skill-fill"></div></div>
+          <div class="skill-meta"><span>Python, C#, Java, React</span></div>
+        </article>
+        <article class="skill-card">
+          <h3>Sistemas Embarcados & IoT</h3>
+          <div class="skill-bar" aria-hidden="true"><div class="skill-fill"></div></div>
+          <div class="skill-meta"><span>Hardware | Controle | Sensores</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experiencia">
+      <div class="section-header">
+        <div>
+          <h2>Experiência Profissional</h2>
+          <p>Timeline de entregas e responsabilidades focadas em dados, automação, sistemas e eficiência operacional.</p>
+        </div>
+      </div>
+      <div class="experience-list">
+        <article class="experience-card">
+          <header>
+            <div>
+              <div class="company">Bradesco</div>
+              <div class="role">Estagiário de TI</div>
+            </div>
+            <div class="period">Fev 2026 — Momento</div>
+          </header>
+          <ul>
+            <li>Apoio no desenvolvimento de relatórios e visões estatísticas.</li>
+            <li>Suporte a Inteligência Competitiva e Sistemas para eficiência operacional.</li>
+            <li>Documentação técnica de processos e fluxos de automação.</li>
+          </ul>
+        </article>
+        <article class="experience-card">
+          <header>
+            <div>
+              <div class="company">Analista de E-commerce</div>
+              <div class="role">Freelance / Operações Digitais</div>
+            </div>
+            <div class="period">Jun 2024 — Dez 2025</div>
+          </header>
+          <ul>
+            <li>Scripts em Python e Flask para automação de relatórios gerenciais.</li>
+            <li>Extração de dados de ERPs como Bling e Magis para relatórios automatizados.</li>
+            <li>Dashboards de performance para Mercado Livre, Amazon, Shopee e Olist.</li>
+          </ul>
+        </article>
+        <article class="experience-card">
+          <header>
+            <div>
+              <div class="company">Assistente de Escritório</div>
+              <div class="role">Suporte Administrativo</div>
+            </div>
+            <div class="period">Abr 2023 — Jun 2024</div>
+          </header>
+          <ul>
+            <li>Rotinas administrativas no departamento de vendas.</li>
+            <li>Emissão de NF-e via ERP e controles de processos.</li>
+            <li>Gestão de dados utilizando Excel e Word para operações.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="section-header">
+        <div>
+          <h2>Projetos em Destaque</h2>
+          <p>Projetos robustos com foco em resultados, tecnologia e impacto operacional.</p>
+        </div>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Detecção de Erros em Bombas de Infusão com IA</h3>
+          <p>Modelo de Machine Learning e Visão Computacional para identificar falhas em bombas de infusão hospitalares (Icatu 4.0 Intelli) em tempo real, reduzindo riscos médicos.</p>
+          <div class="tag-list">
+            <span class="tag">Python</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">PyAutoGUI</span>
+          </div>
+          <div class="metric">99% acurácia | erro 0,94%</div>
+        </article>
+        <article class="project-card">
+          <h3>Sistema de Gerenciamento de Coletas (NeoLog)</h3>
+          <p>Projeto Full-Stack para otimizar o fluxo de picking em centros de distribuição, com dashboard de gráficos temporais e KPIs de desempenho em tempo real.</p>
+          <div class="tag-list">
+            <span class="tag">React</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">Supabase</span>
+          </div>
+          <div class="metric">Dashboard Realtime | Logística inteligente</div>
+        </article>
+        <article class="project-card">
+          <h3>AutoControl</h3>
+          <p>Aplicativo de gestão de frotas e manutenção veicular desenvolvido com a Amemiya Indústria Mecânica, incluindo cálculo de Custo Total de Propriedade (TCO).</p>
+          <div class="tag-list">
+            <span class="tag">Gestão de frotas</span>
+            <span class="tag">TCO</span>
+            <span class="tag">Produto operacional</span>
+          </div>
+          <div class="metric">Controle de manutenção eficiente</div>
+        </article>
+        <article class="project-card">
+          <h3>Barco Autônomo (IoT)</h3>
+          <p>Projeto integrador de hardware com microcontrolador, motores DC submersos, controle de direção e simulação de circuitos para navegação autônoma.</p>
+          <div class="tag-list">
+            <span class="tag">Arduino Uno</span>
+            <span class="tag">C/C++</span>
+            <span class="tag">Tinkercad</span>
+          </div>
+          <div class="metric">Navegação autônoma | Hardware embarcado</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="cursos">
+      <div class="section-header">
+        <div>
+          <h2>Cursos e Certificações</h2>
+          <p>Formação direcionada para IA, dados, automação, linguagens e front-end com foco em aplicações reais.</p>
+        </div>
+      </div>
+      <div class="course-grid">
+        <article class="badge-card">
+          <h4>Inteligência Artificial & LLMs</h4>
+          <p>Formação Gemini e Python; Orquestrando LLMs com LangChain; Criando ferramentas com a API do Gemini.</p>
+        </article>
+        <article class="badge-card">
+          <h4>Engenharia de Dados & SQL</h4>
+          <p>Formação Conhecendo SQL; Consultas avançadas, Joins, Views e Transações em SQLite; Introdução à Engenharia de Dados (Spark).</p>
+        </article>
+        <article class="badge-card">
+          <h4>Automação & Integrações</h4>
+          <p>Integração de fluxos com n8n e IA; Automação de processos com Make; Criação de Webapps com Flask.</p>
+        </article>
+        <article class="badge-card">
+          <h4>Linguagens & POO</h4>
+          <p>Formação Programação em C# com POO (LINQ e consumo de APIs); Python para Dados; Introdução ao desenvolvimento Java.</p>
+        </article>
+        <article class="badge-card">
+          <h4>Front-End & Analytics</h4>
+          <p>Power BI (Análise inteligente de dados); Excel avançado com IA; Desenvolvimento Web Responsivo (HTML5/CSS3).</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <div class="section-header">
+        <div>
+          <h2>Contato</h2>
+          <p>Conecte-se para oportunidades em Engenharia de Dados, Automação e projetos de software estratégico.</p>
+        </div>
+      </div>
+      <div class="contact-grid">
+        <article class="contact-panel">
+          <div class="tag-list">
+            <div class="contact-item">
+              <span>LinkedIn</span>
+              <a href="https://www.linkedin.com/in/matheus-farias-0822b5269/" target="_blank" rel="noreferrer">linkedin.com/in/matheus-farias-0822b5269</a>
+            </div>
+            <div class="contact-item">
+              <span>GitHub</span>
+              <a href="https://github.com/MatheusFarias15" target="_blank" rel="noreferrer">github.com/MatheusFarias15</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="form-card">
+          <form>
+            <label>
+              Nome
+              <input type="text" placeholder="Seu nome" />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="seu@email.com" />
+            </label>
+            <label>
+              Mensagem
+              <textarea rows="5" placeholder="Detalhe a oportunidade ou projeto"></textarea>
+            </label>
+            <button type="submit">Enviar Mensagem</button>
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>Desenvolvido por Matheus Farias dos Santos · Portfólio Técnico</div>
+      <div class="social-links">
+        <a href="https://github.com/MatheusFarias15" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0.297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.334-1.757-1.334-1.757-1.09-.744.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.835 2.807 1.305 3.492.998.108-.776.418-1.305.762-1.605-2.665-.305-5.466-1.332-5.466-5.93 0-1.31.47-2.38 1.236-3.22-.124-.303-.536-1.525.117-3.176 0 0 1.008-.322 3.301 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.29-1.552 3.295-1.23 3.295-1.23.655 1.651.243 2.873.12 3.176.77.84 1.235 1.91 1.235 3.22 0 4.61-2.804 5.625-5.475 5.92.43.37.81 1.096.81 2.21 0 1.6-.015 2.89-.015 3.28 0 .32.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/matheus-farias-0822b5269/" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.024-3.036-1.85-3.036-1.853 0-2.136 1.446-2.136 2.942v5.663H9.348V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.369-1.85 3.602 0 4.269 2.37 4.269 5.456v6.285zM5.337 7.433c-1.144 0-2.07-.928-2.07-2.072 0-1.144.926-2.072 2.07-2.072 1.143 0 2.07.928 2.07 2.072 0 1.144-.927 2.072-2.07 2.072zm1.78 13.019H3.556V9h3.561v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.73v20.538C0 23.226.792 24 1.771 24h20.451C23.2 24 24 23.226 24 22.268V1.73C24 .774 23.2 0 22.225 0z"/></svg>
+          LinkedIn
+        </a>
+      </div>
     </footer>
+  </main>
 </body>
 
 </html>
